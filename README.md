@@ -24,6 +24,6 @@ Hongyu (Vicky) Ye
   (1). We can explore the mean base salary for each agency by selecting different year
   (2). We findout the top 20 agencies that with the highest OT hours in NYC, and showing the percentage of these          agencies in the five boroughs 
 - Line Chart: We can find out how do OT Hours change by boroughs over years
-- Newwork Visulization: We analysis between the top 20 agencies that with the highest OT hours with the five boroughs
+- Network Visulization: We analysis between the top 20 agencies that with the highest OT hours with the five boroughs
 
 
