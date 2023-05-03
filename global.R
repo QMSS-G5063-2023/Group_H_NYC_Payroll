@@ -11,15 +11,9 @@ library(htmltools)
 library(RColorBrewer)
 library(igraph)
 
-data <- read_csv("Citywide_Payroll_Data__Fiscal_Year_.csv")
 
-data <- data %>%
-  filter(`Work Location Borough` %in% c("BROOKLYN", "BRONX", "MANHATTAN", "QUEENS", "RICHMOND"))
-data$`Work Location Borough`[data$`Work Location Borough` == "RICHMOND"] <- "Staten Island"
-data$`Work Location Borough`[data$`Work Location Borough` == "BRONX"] <- "Bronx"
-data$`Work Location Borough`[data$`Work Location Borough` == "BROOKLYN"] <- "Brooklyn"
-data$`Work Location Borough`[data$`Work Location Borough` == "QUEENS"] <- "Queens"
-data$`Work Location Borough`[data$`Work Location Borough` == "MANHATTAN"] <- "Manhattan"
+data <- read_csv("data/Citywide_Payroll_Data__Fiscal_Year_.csv")
+
 
 map_data <- data %>% 
   mutate(total_paid = `Regular Gross Paid` + `Total OT Paid` + `Total Other Pay`) %>%

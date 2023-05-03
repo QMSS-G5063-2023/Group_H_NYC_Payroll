@@ -1,7 +1,4 @@
 
-library(shiny)
-
-
 navbarPage('NYC Payroll', theme = shinytheme("superhero"),
            tabPanel('Introduction',
                     div(
@@ -142,7 +139,7 @@ navbarPage('NYC Payroll', theme = shinytheme("superhero"),
                column(width = 10,
                       offset = 2,
                       p(style = "font-size: 14px; text-align:center;",
-                        "Note: The data used in this bar chart is based on publicly available information from ",
+                        "Note: The data used in this line chart is based on publicly available information from ",
                         a("New York City's Open Data Portal", href = "https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e", target="_blank"),
                         "."
                       )
@@ -180,7 +177,7 @@ navbarPage('NYC Payroll', theme = shinytheme("superhero"),
                column(width = 10,
                       offset = 2,
                       p(style = "font-size: 14px; text-align:center;",
-                        "Note: The data used in this bar chart is based on publicly available information from ",
+                        "Note: The data used in these bar charts is based on publicly available information from ",
                         a("New York City's Open Data Portal", href = "https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e", target="_blank"),
                         "."
                       )
@@ -213,7 +210,7 @@ navbarPage('NYC Payroll', theme = shinytheme("superhero"),
                column(width = 10,
                       offset = 2,
                       p(style = "font-size: 14px; text-align:center;",
-                        "Note: The data used in this bar chart is based on publicly available information from ",
+                        "Note: The data used in this network graph is based on publicly available information from ",
                         a("New York City's Open Data Portal", href = "https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e", target="_blank"),
                         "."
                       )
