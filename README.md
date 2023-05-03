@@ -18,5 +18,12 @@ Teng-Shao (Bobbie) Lu
 Hongyu (Vicky) Ye
 📧 hy2764@columbia.edu
 
+### Visulization
+- Map View: There is the over view of payroll for each borough by different year
+- Bar Chart: 
+  (1). We can explore the mean base salary for each agency by selecting different year
+  (2). We findout the top 20 agencies that with the highest OT hours in NYC, and showing the percentage of these          agencies in the five boroughs 
+- Line Chart: We can find out how do OT Hours change by boroughs over years
+- Newwork Visulization: We analysis between the top 20 agencies that with the highest OT hours with the five boroughs
 
 
