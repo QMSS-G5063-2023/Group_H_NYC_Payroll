@@ -18,7 +18,7 @@ Teng-Shao (Bobbie) Lu
 Hongyu (Vicky) Ye
 📧 hy2764@columbia.edu
 
-### Visulization
+### Visualization
 - Map View: There is the over view of payroll for each borough by different year
 - Bar Chart: 
   (1). We can explore the mean base salary for each agency by selecting different year
